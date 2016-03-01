@@ -57,9 +57,13 @@ function Human(names){
   this.pet = function(dog){
     dog.status = 'happy';
   }
-  this.feed = function(doge){
-    doge.feed
+  this.feed = function(){
+      //Really having trouble figuring this one out.
   }
+  this.cool = false;
+  if(names && names.cool !== undefined) {
+    this.cool = names.cool;
+  };
 };
 
 
